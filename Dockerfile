@@ -1,6 +1,6 @@
 FROM golang:latest
 LABEL maintainer="Daren Darrow <darrow@gmail.com>"
 WORKDIR /app
-COPY . .
+RUN git clone https://github.com/darendarrow/vuln-list-update.git .
 RUN go build .
 CMD ["./vuln-list-update"]
