@@ -11,7 +11,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/aquasecurity/vuln-list-update/utils"
+	"github.com/darendarrow/vuln-list-update/utils"
 	"github.com/cheggaaa/pb"
 	"github.com/spf13/afero"
 	"golang.org/x/xerrors"

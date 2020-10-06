@@ -14,7 +14,7 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/vuln-list-update/debian"
+	"github.com/darendarrow/vuln-list-update/debian"
 
 	"github.com/stretchr/testify/assert"
 )

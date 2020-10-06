@@ -10,31 +10,31 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aquasecurity/vuln-list-update/cwe"
+	"github.com/darendarrow/vuln-list-update/cwe"
 
 	githubql "github.com/shurcooL/githubv4"
 	"golang.org/x/oauth2"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/vuln-list-update/alpine"
-	"github.com/aquasecurity/vuln-list-update/amazon"
-	susecvrf "github.com/aquasecurity/vuln-list-update/cvrf/suse"
-	"github.com/aquasecurity/vuln-list-update/debian"
-	"github.com/aquasecurity/vuln-list-update/ghsa"
-	"github.com/aquasecurity/vuln-list-update/git"
-	"github.com/aquasecurity/vuln-list-update/nvd"
-	debianoval "github.com/aquasecurity/vuln-list-update/oval/debian"
-	oracleoval "github.com/aquasecurity/vuln-list-update/oval/oracle"
-	redhatoval "github.com/aquasecurity/vuln-list-update/oval/redhat"
-	"github.com/aquasecurity/vuln-list-update/photon"
-	"github.com/aquasecurity/vuln-list-update/redhat"
-	"github.com/aquasecurity/vuln-list-update/ubuntu"
-	"github.com/aquasecurity/vuln-list-update/utils"
+	"github.com/darendarrow/vuln-list-update/alpine"
+	"github.com/darendarrow/vuln-list-update/amazon"
+	susecvrf "github.com/darendarrow/vuln-list-update/cvrf/suse"
+	"github.com/darendarrow/vuln-list-update/debian"
+	"github.com/darendarrow/vuln-list-update/ghsa"
+	"github.com/darendarrow/vuln-list-update/git"
+	"github.com/darendarrow/vuln-list-update/nvd"
+	debianoval "github.com/darendarrow/vuln-list-update/oval/debian"
+	oracleoval "github.com/darendarrow/vuln-list-update/oval/oracle"
+	redhatoval "github.com/darendarrow/vuln-list-update/oval/redhat"
+	"github.com/darendarrow/vuln-list-update/photon"
+	"github.com/darendarrow/vuln-list-update/redhat"
+	"github.com/darendarrow/vuln-list-update/ubuntu"
+	"github.com/darendarrow/vuln-list-update/utils"
 )
 
 const (
 	repoURL          = "https://%s@github.com/%s/%s.git"
-	defaultRepoOwner = "aquasecurity"
+	defaultRepoOwner = "darendarrow"
 	defaultRepoName  = "vuln-list"
 )
 

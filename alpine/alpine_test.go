@@ -14,7 +14,7 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/vuln-list-update/alpine"
+	"github.com/darendarrow/vuln-list-update/alpine"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

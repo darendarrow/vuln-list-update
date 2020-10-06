@@ -15,7 +15,7 @@ import (
 	"golang.org/x/xerrors"
 	"gopkg.in/cheggaaa/pb.v1"
 
-	"github.com/aquasecurity/vuln-list-update/utils"
+	"github.com/darendarrow/vuln-list-update/utils"
 )
 
 const (

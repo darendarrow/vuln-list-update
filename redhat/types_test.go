@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/aquasecurity/vuln-list-update/redhat"
+	"github.com/darendarrow/vuln-list-update/redhat"
 	"github.com/kylelemons/godebug/pretty"
 )
 

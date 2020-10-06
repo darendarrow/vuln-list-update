@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/aquasecurity/vuln-list-update/cvrf/suse"
+	"github.com/darendarrow/vuln-list-update/cvrf/suse"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
